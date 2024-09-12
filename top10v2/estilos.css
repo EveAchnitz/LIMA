@@ -2,6 +2,59 @@ body{
     background-color:darkseagreen;
 }
 
+img{
+    width: 80%;    /*Largura da imagem*/
+    height: 50%;   /*Altura da imagem*/
+    opacity: 75%;
+}
+
+img:hover{
+    border-color:olivedrab;
+    border-style:groove;
+    opacity: 100%;
+    filter:brightness();
+}
+
+#guaxinim{
+    text-align: center;
+}
+
+#raposa{
+    text-align: center;
+}
+
+#elefante{
+    text-align: center;
+}
+
+#arara{
+    text-align: center;
+}
+
+#tucano{
+    text-align: center;
+}
+
+#tartaruga{
+    text-align: center;
+}
+
+#girafa{
+    text-align: center;
+}
+
+#cachorro{
+    text-align: center;
+}
+
+#gato{
+    text-align: center;
+}
+
+#ratinho{
+    text-align: center;
+}
+
 h1{
     text-align:center;
     color: darkgreen;
@@ -9,11 +62,13 @@ h1{
 }
 
 h2{
+    text-align: center;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: darkolivegreen;
 }
 
 p{
+    text-align:justify;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: black;
 }
